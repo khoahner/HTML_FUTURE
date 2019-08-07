@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>QUEST 2</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .container {
             text-align: center;
@@ -11,17 +13,6 @@
             display: grid;
             grid-template-columns: 1.2fr 4fr;
             background-color:white;
-        }
-        .A{
-            border: 1px;
-            display: grid;
-            grid-template-columns: 150px 100px;
-        }
-        .A1{
-            text-align: left;
-        }
-        .A2{
-            text-align: left;
         }
         .im{
             border: 1px;
@@ -48,7 +39,7 @@
             background-color: navajowhite;
         }
         .ski{
-            border: 1px solid;
+            border: 1px;
             padding: 10px;
             background-color: darkcyan;
         }
@@ -57,7 +48,7 @@
             grid-template-columns: 2fr 2fr;
         }
         .edu{
-            border: 1px solid;
+            border: 1px;
             padding: 10px;
             background-color: navajowhite;
         }
@@ -65,24 +56,51 @@
             display: grid;
             grid-template-columns: 2fr 2fr;
         }
-        .con{
-            border: 1px solid;
+        .con {
+            border: 1px;
             padding: 10px;
             background-color: darkcyan;
         }
+        .fa{
+            padding:20px;
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+        .fa:hover{
+            opacity: 0.7;
+        }
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
         .hob{
-            border: 1px solid;
+            border: 1px;
             padding: 10px;
             background-color: navajowhite;
         }
         h3, h4, h5, p, div{
             text-align: left;
         }
-        .im, .na, .ab, .exp, .ski, .edu, .con, .hob{
-            margin: 2px;
+        .im, .na, .ab, .exp, .ski, .edu, .con, .hob {
+            margin: 0 5px 0 5px;
             width: auto;
             padding-top: 1px;
         }
+
     </style>
 </head>
 <body>
@@ -105,12 +123,13 @@
                 <div>Gender</div>               <div>:Male</div>
                 <div>Phone</div>                <div>:0907286793</div>
                 </div>
-        <hr>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             A assumenda, cupiditate dicta dolor dolorem,
             dolorum eius eligendi esse explicabo impedit ipsa laboriosam nesciunt quasi
             quibusdam quis sed,
             tenetur voluptate voluptatum.</p>
+        <hr>
     </div>
     <div class="exp">
 <!--        <div>experiment</div>-->
@@ -124,7 +143,7 @@
                         odio optio quidem quo repellendus suscipit tempore.
                         Beatae maiores officia praesentium quae velit.
                     </p>
-        <hr>
+
                     <h4>Sieu Viet Solution</h4>
                     <p>2017 - 2018</p>
                     <h5><b>Technoly - Warranty</b></h5>
@@ -134,6 +153,7 @@
                         odio optio quidem quo repellendus suscipit tempore.
                         Beatae maiores officia praesentium quae velit.
                     </p>
+        <hr>
     </div>
     <div class="ski">
 <!--        <div>contact</div>-->
@@ -144,18 +164,18 @@
             odio optio quidem quo repellendus suscipit tempore.
             Beatae maiores officia praesentium quae velit.
         </p>
-        <hr>
+
         <div class="ski1">
         <div>HTML</div>       <div>:50%</div>
         <div>CSS</div>        <div>:50%</div>
         <div>JS</div>         <div>:50%</div>
         <div>ENGLISH:</div>   <div>:50%</div>
         </div>
+        <hr>
     </div>
     <div class="edu">
 <!--        <div>education</div>-->
         <h4><u>EDUCATION</u></h4>
-        <hr>
         <div class="edu1">
         <div>2006 - 2010</div> <div>:GO VAP HIGHSCHOOL</div>
         <div>2010 - 2013</div> <div>:HOA SEN COLLEGE</div>
@@ -163,14 +183,25 @@
         <div>2017</div> <div>:VNPRO</div>
         <div>2019</div> <div>:APTECH</div>
         </div>
+        <hr>
     </div>
+
     <div class="con">
 <!--        <div>contact</div>-->
-        <h4>CONTACT</h4>
+        <h4><u>CONTACT</u></h4>
+        <a href="www.facebook.com" class="fa fa-facebook"></a>
+        <a href="www.twitter.com" class="fa fa-twitter"></a>
+        <a href="www.linkedin.com" class="fa fa-linkedin"></a>
+        <a href="www.instagram.com" class="fa fa-instagram"></a>
 
     </div>
     <div class="hob">
-        <div>hobbies</div>
+<!--        <div>hobbies</div>-->
+        <h4><u>HOBBIES</u></h4>
+        <i class='fas fa-music' style='font-size:48px;color:darkcyan'></i>
+        <i class='fas fa-bicycle' style='font-size:48px;color:darkcyan'></i>
+        <i class='fas fa-hamburger' style='font-size:48px;color:darkcyan'></i>
+
     </div>
 </div>
 </body>
