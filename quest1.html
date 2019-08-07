@@ -8,10 +8,10 @@
     <style>
         .container {
             text-align: center;
-            margin: 20px;
+            margin: 50px;
             border: 10px solid darkcyan;
             display: grid;
-            grid-template-columns: 1.2fr 4fr;
+            grid-template-columns: 1fr 4fr;
             background-color:white;
         }
         .im{
@@ -56,7 +56,7 @@
             display: grid;
             grid-template-columns: 2fr 2fr;
         }
-        .con {
+        .con{
             border: 1px;
             padding: 10px;
             background-color: darkcyan;
@@ -96,11 +96,26 @@
             text-align: left;
         }
         .im, .na, .ab, .exp, .ski, .edu, .con, .hob {
-            margin: 0 5px 0 5px;
+            /*margin: 0 5px 0 5px;*/
             width: auto;
             padding-top: 1px;
         }
-
+        .ab, .ski, .con {
+            border: 1px;
+            padding: 10px;
+            background-color: darkcyan;
+        }
+        .exp, .edu, .hob{
+            border: 1px;
+            padding: 10px;
+            background-color: white;
+        }
+        .exp1{
+            border: 1px;
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
@@ -134,25 +149,14 @@
     <div class="exp">
 <!--        <div>experiment</div>-->
         <h3><u>EXPERIENCE</u></h3>
-                    <h4>SMS</h4>
-                    <p>2016 - 2017</p>
-                    <h5><b>IT Support</b></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        At cumque ea eaque, et ex ipsa ipsum nobis,
-                        odio optio quidem quo repellendus suscipit tempore.
-                        Beatae maiores officia praesentium quae velit.
-                    </p>
+            <div class="exp1">
+                <div><h4>SMS</h4></div>             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cupiditate deleniti dicta eveniet facere harum ipsum minus placeat quae quia quo recusandae sunt, tenetur unde veritatis, voluptate voluptates. Doloribus, harum.</div>
+                <div><em>2016 - 2017</em></div>     <div>Training for new employee about company system, it process</div>
 
-                    <h4>Sieu Viet Solution</h4>
-                    <p>2017 - 2018</p>
-                    <h5><b>Technoly - Warranty</b></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        At cumque ea eaque, et ex ipsa ipsum nobis,
-                        odio optio quidem quo repellendus suscipit tempore.
-                        Beatae maiores officia praesentium quae velit.
-                    </p>
+                <div><h4>SMS</h4></div>             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem dolores eaque, eum exercitationem id ipsa laborum nobis perferendis provident quae quaerat qui quis recusandae repellendus sequi suscipit ut voluptate?</div>
+                <div><em>2016 - 2017</em></div>     <div>Training for new employee about company system, it process</div>
+
+            </div>
         <hr>
     </div>
     <div class="ski">
@@ -169,7 +173,7 @@
         <div>HTML</div>       <div>:50%</div>
         <div>CSS</div>        <div>:50%</div>
         <div>JS</div>         <div>:50%</div>
-        <div>ENGLISH:</div>   <div>:50%</div>
+        <div>ENGLISH</div>    <div>:50%</div>
         </div>
         <hr>
     </div>
@@ -198,10 +202,10 @@
     <div class="hob">
 <!--        <div>hobbies</div>-->
         <h4><u>HOBBIES</u></h4>
-        <i class='fas fa-music' style='font-size:48px;color:darkcyan'></i>
-        <i class='fas fa-bicycle' style='font-size:48px;color:darkcyan'></i>
-        <i class='fas fa-hamburger' style='font-size:48px;color:darkcyan'></i>
-
+        <i class='fas fa-music' style='font-size:48px'></i>
+        <i class='fas fa-bicycle' style='font-size:48px'></i>
+        <i class='fas fa-hamburger' style='font-size:48px'></i>
+        <i class='fas fa-mug-hot' style='font-size:48px'></i>
     </div>
 </div>
 </body>
