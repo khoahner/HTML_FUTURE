@@ -6,7 +6,7 @@
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .container {
@@ -22,10 +22,20 @@
             padding: 10px;
             background-color: white;
         }
+        img{
+            border-radius: 50%;
+
+        }
         .na{
             border: 1px;
             padding-top: 100px;
             background-color: white;
+        }
+        #nam{
+            font-family: 'Dancing Script', cursive;
+            text-shadow: 1px 1px;
+            text-align: center;
+            font-size: 30px;
         }
         .ab{
             border: 1px;
@@ -42,7 +52,7 @@
             background-color: navajowhite;
         }
         .ski{
-            border: 1px solid;
+            border: 1px;
             padding: 10px;
             background-color: darkcyan;
         }
@@ -65,7 +75,7 @@
         }
         .edu1{
             display: grid;
-            grid-template-columns: 2fr 2fr;
+            grid-template-columns: 0.5fr 2fr;
         }
         .con{
             border: 1px;
@@ -73,7 +83,7 @@
             background-color: darkcyan;
         }
         .fa{
-            padding:20px;
+            padding:30px;
             font-size: 20px;
             text-align: center;
             text-decoration: none;
@@ -103,6 +113,9 @@
             padding: 10px;
             background-color: navajowhite;
         }
+        h1{
+            font-family: 'Dancing Script', cursive;
+        }
         h3, h4, h5, p, div{
             text-align: left;
         }
@@ -110,6 +123,7 @@
             /*margin: 0 5px 0 5px;*/
             width: auto;
             padding-top: 1px;
+            font-size: 18px;
         }
         .ab, .ski, .con {
             border: 1px;
@@ -119,14 +133,15 @@
         .exp, .edu, .hob{
             border: 1px;
             padding: 10px;
-            background-color: white;
+            background-color: navajowhite;
         }
-        .exp1{
-            border: 1px;
-            display: grid;
-            grid-template-columns: 2fr 2fr;
-            padding: 10px;
-        }
+
+        /*.exp1{*/
+        /*    border: 1px;*/
+        /*    display: grid;*/
+        /*    grid-template-columns: 2fr 2fr;*/
+        /*    padding: 10px;*/
+        /*}*/
     </style>
 </head>
 <body>
@@ -137,50 +152,70 @@
     </div>
     <div class="na">
 <!--        <div>name/job</div>-->
-        <h1 style="font-size: 30px"> HUYNH NHAT KHOA</h1>
-        <p style="text-shadow: 1px 1px" ><em>FRONT-END DEVELOPER</em></p>
-        <hr>
+        <h1 style="text-align: center">HUYNH NHAT KHOA</h1>
+        <p id="nam"><em>Front-end Developer</em></p>
     </div>
     <div class="ab">
 <!--        <div>about me</div>-->
         <h3><u>ABOUT ME</u></h3>
                 <div class="ab1">
-                <div>Date of Birth</div>        <div>:05/30/1992</div>
-                <div>Gender</div>               <div>:Male</div>
-                <div>Phone</div>                <div>:0907286793</div>
+                <div>Date of Birth</div>        <div>: 05/30/1992</div>
+                <div>Gender</div>               <div>: Male</div>
+                <div>Phone</div>                <div>: 0907286793</div>
                 </div>
+        <h3><u>SKILLS</u></h3>
+        <p>HTML</p>
+        <div class ="skil">
+            <div class="skills html">50%</div>
+        </div>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            A assumenda, cupiditate dicta dolor dolorem,
-            dolorum eius eligendi esse explicabo impedit ipsa laboriosam nesciunt quasi
-            quibusdam quis sed,
-            tenetur voluptate voluptatum.</p>
+        <p>CSS</p>
+        <div class ="skil">
+            <div class="skills css">50%</div>
+        </div>
+
+        <p>JS</p>
+        <div class ="skil">
+            <div class="skills js">50%</div>
+        </div>
+
+        <p>PHP</p>
+        <div class ="skil">
+            <div class="skills php">50%</div>
+        </div>
+
         <hr>
     </div>
     <div class="exp">
 <!--        <div>experiment</div>-->
         <h3><u>EXPERIENCE</u></h3>
             <div class="exp1">
-                <div><h4>SMS</h4></div>             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cupiditate deleniti dicta eveniet facere harum ipsum minus placeat quae quia quo recusandae sunt, tenetur unde veritatis, voluptate voluptates. Doloribus, harum.</div>
-                <div><em>2016 - 2017</em></div>     <div>Training for new employee about company system, it process</div>
-
-                <div><h4>MIRAE ASSET</h4></div>     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem dolores eaque, eum exercitationem id ipsa laborum nobis perferendis provident quae quaerat qui quis recusandae repellendus sequi suscipit ut voluptate?</div>
-                <div><em>2018</em></div>            <div>Training for new employee about company system, it process</div>
+                <div><h4>.SMS</h4></div>
+                <div><h5><em>2015 - 2016</em></h5></div>
+                <div>- Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Animi cupiditate deleniti dicta evniet facere harum ipsum minus
+                    placeat quae quia quo recusandae sunt, tenetur unde veritatis,
+                    voluptate voluptates. Doloribus, harum.</div>
+                <div>- Training for new employee about company system, it process</div>
+                <div><h4>.SIEU VIET SOLUTION</h4></div>
+                <div><h5><em>2016 - 2018</em></h5></div>
+                <div>- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda d
+                    olorem dolores eaque, eum exercitationem id ipsa laborum nobis perferendis provident q
+                    uae quaerat qui quis recusandae repellendus sequi suscipit ut voluptate?</div>
+                <div>- Training for new employee about company system, it process</div>
+                <div><h4>.MIRAE ASSET</h4></div>
+                <div><h5><em>2018 - 2019</em></h5></div>
+                <div>- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda d
+                    olorem dolores eaque, eum exercitationem id ipsa laborum nobis perferendis provident q
+                    uae quaerat qui quis recusandae repellendus sequi suscipit ut voluptate?</div>
+                <div>- Training for new employee about company system, it process</div>
 
             </div>
         <hr>
     </div>
     <div class="ski">
-<!--        <div>contact</div>-->
+<!--        <div>skill</div>-->
         <h3><u>SKILLS</u></h3>
-
-
-<!--        <div class="ski1">-->
-<!--        <div>HTML</div>       <div>:50%</div>-->
-<!--        <div>CSS</div>        <div>:50%</div>-->
-<!--        <div>JS</div>         <div>:50%</div>-->
-<!--        <div>ENGLISH</div>    <div>:50%</div>-->
-<!--        </div>-->
         <p>HTML</p>
         <div class ="skil">
         <div class="skills html">50%</div>
@@ -207,13 +242,18 @@
 <!--        <div>education</div>-->
         <h4><u>EDUCATION</u></h4>
         <div class="edu1">
-        <div>2006 - 2010</div> <div>:GO VAP HIGHSCHOOL</div>
-        <div>2010 - 2013</div> <div>:HOA SEN COLLEGE</div>
-        <div>2012</div> <div>:NHAT NGHE TRAINING</div>
-        <div>2017</div> <div>:VNPRO</div>
-        <div>2019</div> <div>:APTECH</div>
+        <div>2006 - 2010</div> <div>: GO VAP HIGHSCHOOL</div>
+        <div>2010 - 2013</div> <div>: HOA SEN COLLEGE</div>
+        <div>2012</div> <div>: NHAT NGHE TRAINING</div>
+        <div>2017</div> <div>: VNPRO</div>
+        <div>2019</div> <div>: APTECH</div>
         </div>
         <hr>
+        <h4><u>HOBBIES</u></h4>
+        <i class='fas fa-music' style='font-size:48px'></i>
+        <i class='fas fa-bicycle' style='font-size:48px'></i>
+        <i class='fas fa-hamburger' style='font-size:48px'></i>
+        <i class='fas fa-mug-hot' style='font-size:48px'></i>
     </div>
 
     <div class="con">
