@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .container {
+            box-sizing: border-box;
             text-align: center;
-            margin: 50px;
-            border: 10px solid #29B6F6;
+            margin: 100px;
+            border: 10px solid #34495e;
             display: grid;
             grid-template-columns: 1fr 4fr;
             background-color:white;
@@ -20,6 +21,7 @@
         .ab1{
             display: grid;
             grid-template-columns: 2fr 2fr;
+            padding-left: 20px;
         }
         .skil{
             width: 100%;
@@ -55,28 +57,28 @@
             color: white;
         }
         .fa-github{
-            background: white;
-            color: black;
+            background: black;
+            color: white;
         }
         .im, .na, .ab, .exp, .ski, .edu, .con, .fol {
             /*margin: 0 5px 0 5px;*/
             width: auto;
             height: auto;
             padding-top: 100px;
-            font-size: 18px;
+            font-size: 19px;
         }
         .ab, .ski, .con {
             border: 1px;
             padding: 10px;
-            background-color: #b3e5fc;
+            background-color: #34495e;
         }
-        .exp, .edu, .fol{
+        .exp, .edu, .fol, .na{
             border: 1px;
             padding: 10px;
-            background-color: #81d4fa;
+            background-color: #ecf0f1;
         }
-        .im, .na{
-            background-color:#b3e5fc ;
+        .im{
+             background-color: #34495e;
         }
         .exp1, .exp2, .exp3{
             border: 1px;
@@ -86,7 +88,7 @@
         }
         h1{
             font-family: 'Dancing Script', cursive;
-            font-size: 30px;
+            font-size: 50px;
         }
         h3, h4, h5, p, div{
             text-align: left;
@@ -95,7 +97,7 @@
             border-radius: 50%;
             height: auto;
             width: auto;
-            margin-left: 5px;
+            margin-right: 10px;
         }
         #expe{
             padding-top: 20px;
@@ -105,7 +107,8 @@
             font-family: 'Dancing Script', cursive;
             text-shadow: 1px 1px;
             text-align: center;
-            font-size: 30px;
+            font-size: 100px;
+            margin-top: 10px;
         }
         #myBtn:hover {
             background-color: #555;
@@ -144,7 +147,7 @@
             box-sizing: border-box;
             margin-top: 6px;
             margin-bottom: 16px;
-            resize: vertical;
+            /*resize: vertical;*/
         }
     </style>
 </head>
@@ -194,7 +197,24 @@
             dolorum eius eligendi esse explicabo impedit ipsa laboriosam nesciunt quasi
             quibusdam quis sed,
             tenetur voluptate voluptatum.</p>
-
+        <h3><u>SKILLS</u></h3>
+        <p>.HTML</p>
+        <div class ="skil">
+            <div class="skills html">50%</div>
+        </div>
+        <p>.CSS</p>
+        <div class ="skil">
+            <div class="skills css">50%</div>
+        </div>
+        <p>.JS</p>
+        <div class ="skil">
+            <div class="skills js">50%</div>
+        </div>
+        <p>.PHP</p>
+        <div class ="skil">
+            <div class="skills php">50%</div>
+        </div>
+        <hr>
     </div>
     <div class="exp">
 <!--        <div>experiment</div>-->
@@ -226,24 +246,34 @@
     </div>
     <div class="ski">
 <!--        <div>skill</div>-->
-        <h3><u>SKILLS</u></h3>
-         <p>.HTML</p>
-        <div class ="skil">
-        <div class="skills html">50%</div>
-        </div>
-        <p>.CSS</p>
-        <div class ="skil">
-        <div class="skills css">50%</div>
-        </div>
-        <p>.JS</p>
-        <div class ="skil">
-        <div class="skills js">50%</div>
-        </div>
-        <p>.PHP</p>
-        <div class ="skil">
-        <div class="skills php">50%</div>
-        </div>
-        <hr>
+<!--        <h3><u>SKILLS</u></h3>-->
+<!--         <p>.HTML</p>-->
+<!--        <div class ="skil">-->
+<!--        <div class="skills html">50%</div>-->
+<!--        </div>-->
+<!--        <p>.CSS</p>-->
+<!--        <div class ="skil">-->
+<!--        <div class="skills css">50%</div>-->
+<!--        </div>-->
+<!--        <p>.JS</p>-->
+<!--        <div class ="skil">-->
+<!--        <div class="skills js">50%</div>-->
+<!--        </div>-->
+<!--        <p>.PHP</p>-->
+<!--        <div class ="skil">-->
+<!--        <div class="skills php">50%</div>-->
+<!--        </div>-->
+<!--        <hr>-->
+        <h4><u>CONTACT</u></h4>
+        <form action="/action_page.php">
+            <label for="fname">Your Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
     </div>
     <div class="edu">
 <!--        <div>education</div>-->
@@ -270,19 +300,19 @@
 
     <div class="con">
 <!--        <div>contact</div>-->
-        <h4><u>CONTACT</u></h4>
-        <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<!--        <h4><u>CONTACT</u></h4>-->
+<!--        <form action="/action_page.php">-->
+<!--            <label for="fname">First Name</label>-->
+<!--            <input type="text" id="fname" name="firstname" placeholder="Your name..">-->
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<!--            <label for="lname">Last Name</label>-->
+<!--            <input type="text" id="lname" name="lastname" placeholder="Your last name..">-->
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+<!--            <label for="subject">Subject</label>-->
+<!--            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>-->
 
-            <input type="submit" value="Submit">
-        </form>
+<!--            <input type="submit" value="Submit">-->
+<!--        </form>-->
     </div>
     <div class="fol">
 <!--        <div>follow me</div>-->
