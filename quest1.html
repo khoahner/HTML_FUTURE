@@ -22,6 +22,7 @@
             display: grid;
             grid-template-columns: 2fr 2fr;
             padding-left: 20px;
+            font-size: 15px;
         }
         .skil{
             width: 100%;
@@ -104,6 +105,7 @@
             margin-right: 50px;
         }
         #nam{
+            border: 1px solid red;
             font-family: 'Dancing Script', cursive;
             text-shadow: 1px 1px;
             text-align: center;
@@ -149,6 +151,12 @@
             margin-bottom: 16px;
             /*resize: vertical;*/
         }
+        .hobb{
+            text-align: center;
+        }
+        .fa-bicycle, .fa-music, .fa-humburger, .fa-mug-hot{
+            margin: 30px;
+        }
     </style>
 </head>
 <body>
@@ -188,8 +196,10 @@
             <div>: 05/30/1992</div>
             <li>Gender</li>
             <div>: Male</div>
-            <li>Phone</li>
+            <li>&#9742</li>
             <div>: 0907286793</div>
+            <li>&#9993</li>
+            <div><a href="mailto:khoahner@gmail.com">:khoahner@gmail.com</a></div>
         </ul>
         <hr>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -292,10 +302,12 @@
         </ul>
         <hr>
         <h4><u>HOBBIES</u></h4>
+        <div class="hobb">
         <i class='fas fa-music' style='font-size:40px'></i>
         <i class='fas fa-bicycle' style='font-size:40px'></i>
         <i class='fas fa-hamburger' style='font-size:40px'></i>
         <i class='fas fa-mug-hot' style='font-size:40px'></i>
+        </div>
     </div>
 
     <div class="con">
@@ -321,5 +333,6 @@
         <a href="www.linkedin.com" class="fa fa-linkedin"></a>
         <a href="www.github.com" class="fa fa-github"></a>
     </div>
+</div>
 </body>
 </html>
