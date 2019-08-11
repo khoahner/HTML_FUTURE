@@ -6,3 +6,4 @@ social media button:<link rel="stylesheet" href="https://cdnjs.cloudflare.com/aj
 icon: https://fontawesome.com/icons?d=gallery&m=free
 color:https://flatuicolors.com
 https://www.w3schools.com/howto/default.asp
+css gradient:https://mycolor.space/gradient?ori=to+right+bottom&hex=%23051937&hex2=%23A8EB12&sub=1
