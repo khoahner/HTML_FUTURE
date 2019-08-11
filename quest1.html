@@ -13,7 +13,7 @@
             box-sizing: border-box;
             text-align: center;
             margin: 100px;
-            border: 10px solid #34495e;
+            border: 10px solid #22a6b3;
             display: grid;
             grid-template-columns: 1fr 4fr;
             background-color:white;
@@ -72,22 +72,22 @@
         .ab, .ski, .con {
             border: 1px;
             padding: 10px;
-            background-color: #34495e;
+            background-color: #22a6b3;
         }
         .exp, .edu, .fol, .na{
             border: 1px;
             padding: 10px;
-            background-color: #ecf0f1;
+            background-color: #dff9fb;
         }
         .im{
-             background-color: #34495e;
+             background-color: #22a6b3;
         }
         .exp{
             padding-bottom: 60px;
             border-left: 1px;
             display: grid;
             grid-template-columns: 1.2fr 2fr 3fr;
-            background-color: #34495e;
+            background-color: #dff9fb;
         }
         h1{
             font-family: 'Dancing Script', cursive;
@@ -110,10 +110,9 @@
         h3, h4, h5, p, div{
             text-align: left;
         }
-        /*#expe{*/
-        /*    padding-top: 20px;*/
-        /*    margin-right: 50px;*/
-        /*}*/
+        .na{
+            background-image: linear-gradient(to right, #22a6b3,#7ed6df,#dff9fb);
+        }
         #nam{
             border: 1px;
             font-family: 'Dancing Script', cursive;
@@ -122,24 +121,7 @@
             font-size: 100px;
             margin-top: 10px;
         }
-        /*#myBtn:hover {*/
-        /*    background-color: #555;*/
-        /*}*/
-        /*#myBtn {*/
-        /*    display: none;*/
-        /*    position: fixed;*/
-        /*    bottom: 20px;*/
-        /*    right: 30px;*/
-        /*    !*z-index: 99;*!*/
-        /*    font-size: 18px;*/
-        /*    border: none;*/
-        /*    outline: none;*/
-        /*    background-color: red;*/
-        /*    color: white;*/
-        /*    cursor: pointer;*/
-        /*    padding: 15px;*/
-        /*    border-radius: 4px;*/
-        /*}*/
+
         input[type=submit] {
             background-color: #4CAF50;
             color: white;
@@ -171,24 +153,7 @@
     </style>
 </head>
 <body>
-<!--<a href="https://wa.me/whatsappphonenumber/?text=urlencodedtext"></a>-->
-<!--<script>-->
-<!--    // When the user scrolls down 20px from the top of the document, show the button-->
-<!--    window.onscroll = function () { scrollFunction() };-->
 
-<!--    function scrollFunction() {-->
-<!--        if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {-->
-<!--            document.getElementById("myBtn").style.display = "block";-->
-<!--        } else {-->
-<!--            document.getElementById("myBtn").style.display = "none";-->
-<!--        }-->
-<!--    }-->
-<!--    function topFunction() {-->
-<!--        document.body.scrollTop = 0;-->
-<!--        document.documentElement.scrollTop = 0;-->
-<!--    }-->
-<!--</script>-->
-<!--<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>-->
 <div class="container">
     <div class="im">
 <!--        <div>avatar</div>-->
@@ -255,25 +220,7 @@
                             suscipit ut voluptate?</div>
     </div>
     <div class="ski">
-<!--        <div>skill</div>-->
-<!--        <h3><u>SKILLS</u></h3>-->
-<!--         <p>.HTML</p>-->
-<!--        <div class ="skil">-->
-<!--        <div class="skills html">50%</div>-->
-<!--        </div>-->
-<!--        <p>.CSS</p>-->
-<!--        <div class ="skil">-->
-<!--        <div class="skills css">50%</div>-->
-<!--        </div>-->
-<!--        <p>.JS</p>-->
-<!--        <div class ="skil">-->
-<!--        <div class="skills js">50%</div>-->
-<!--        </div>-->
-<!--        <p>.PHP</p>-->
-<!--        <div class ="skil">-->
-<!--        <div class="skills php">50%</div>-->
-<!--        </div>-->
-<!--        <hr>-->
+
         <h4><u>CONTACT</u></h4>
         <form action="/action_page.php">
             <label for="fname">Your Name</label>
@@ -300,41 +247,21 @@
             <li>2019</li>
             <div>: APTECH</div>
         </ul>
-        <h4><u>HOBBIES</u></h4>
-        <div class="hobb">
-        <i class='fas fa-music' style='font-size:40px'></i>
-        <i class='fas fa-bicycle' style='font-size:40px'></i>
-        <i class='fas fa-hamburger' style='font-size:40px'></i>
-        <i class='fas fa-mug-hot' style='font-size:40px'></i>
-        </div>
     </div>
-
     <div class="con">
-<!--        <div>contact</div>-->
-<!--        <h4><u>CONTACT</u></h4>-->
-<!--        <form action="/action_page.php">-->
-<!--            <label for="fname">First Name</label>-->
-<!--            <input type="text" id="fname" name="firstname" placeholder="Your name..">-->
-
-<!--            <label for="lname">Last Name</label>-->
-<!--            <input type="text" id="lname" name="lastname" placeholder="Your last name..">-->
-
-<!--            <label for="subject">Subject</label>-->
-<!--            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>-->
-
-<!--            <input type="submit" value="Submit">-->
-<!--        </form>-->
         <h4><u>FOLLOW ME</u></h4>
         <a href="www.twitter.com" class="fa fa-twitter"></a>
         <a href="www.linkedin.com" class="fa fa-linkedin"></a>
         <a href="www.github.com" class="fa fa-github"></a>
     </div>
     <div class="fol">
-<!--        <div>follow me</div>-->
-<!--        <h4><u>FOLLOW ME</u></h4>-->
-<!--        <a href="www.twitter.com" class="fa fa-twitter"></a>-->
-<!--        <a href="www.linkedin.com" class="fa fa-linkedin"></a>-->
-<!--        <a href="www.github.com" class="fa fa-github"></a>-->
+        <h4><u>HOBBIES</u></h4>
+        <div class="hobb">
+            <i class='fas fa-music' style='font-size:40px'></i>
+            <i class='fas fa-bicycle' style='font-size:40px'></i>
+            <i class='fas fa-hamburger' style='font-size:40px'></i>
+            <i class='fas fa-mug-hot' style='font-size:40px'></i>
+        </div>
     </div>
 </div>
 </body>
