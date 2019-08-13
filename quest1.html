@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>QUEST 1</title>
     <style>
-        .container{
-            text-align: center;
-            margin: 20px;
-            border: 10px solid azure;
-            display: grid;
-            grid-template-columns: 1.2fr 4fr;
-            background-color: antiquewhite;
+        *{
+            box-sizing: border-box;
         }
+        .container {
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+            grid-template-rows: repeat(4, 200px);
+        }
+
+
+
+
         .a{
             border: 1px solid;
             padding: 50px;
@@ -48,28 +54,12 @@
 </head>
 <body>
 <div class="container">
-    <div class="a">
-        <div>image</div>
-    </div>
-    <div class="b">
-        <div>infor</div>
-    </div>
-    <div class="c">
-        <div>skill</div>
-    </div>
-    <div class="d">
-        <div>education</div>
-    </div>
-    <div class="e">
-        <div>contact</div>
-    </div>
-    <div class="f">
-        <div>workexp</div>
-    </div>
-    <div class="g">
-        <div>activity</div>
-    </div>
-    <div class="h">
-        <div>interest</div>
-    </div>
+    <div class="a">1</div>
+    <div class="b">2</div>
+    <div class="c">3</div>
+    <div class="d">4</div>
+    <div class="e">5</div>
+    <div class="f">6</div>
+    <div class="g">7</div>
+    <div class="h">8</div>
 </div>
