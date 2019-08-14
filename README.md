@@ -7,3 +7,4 @@ icon: https://fontawesome.com/icons?d=gallery&m=free
 color:https://flatuicolors.com
 https://www.w3schools.com/howto/default.asp
 css gradient:https://mycolor.space/gradient?ori=to+right+bottom&hex=%23051937&hex2=%23A8EB12&sub=1
+grid responsive: https://hanoiict.edu.vn/cach-thiet-ke-responsive-chi-trong-1-dong-css
